@@ -115,8 +115,8 @@ class CAR(Platforms):
   F_150_MK14 = FordPlatformConfig(
     "FORD F-150 14TH GEN",
     [
-      FordCarInfo("Ford F-150 2023", "Co-Pilot360 Active 2.0"),
-      FordCarInfo("Ford F-150 Hybrid 2023", "Co-Pilot360 Active 2.0"),
+      FordCarInfo("Ford F-150 2022-23", "Co-Pilot360 Active 2.0"),
+      FordCarInfo("Ford F-150 Hybrid 2022-23", "Co-Pilot360 Active 2.0"),
     ],
     dbc_dict=dbc_dict('ford_lincoln_base_pt', RADAR.STEER_ASSIST_DATA),
     specs=CarSpecs(mass=2000, wheelbase=3.69, steerRatio=17.0),
